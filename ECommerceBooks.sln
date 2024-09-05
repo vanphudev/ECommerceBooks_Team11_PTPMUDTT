@@ -23,13 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "INTRO", "INTRO", "{0B5579FA-267F-4C73-8CC8-585EAEA84D53}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db-sql", "db-sql", "{EA247EAE-82E2-45AE-BE85-1A924E747A84}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "INTRO", "INTRO", "{2546ADB3-95F8-43D7-B5D8-37E76A6333BE}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\Diagram - sqlserver.jpg = ..\..\Diagram - sqlserver.jpg
-		..\..\ql_nhasach.sql = ..\..\ql_nhasach.sql
-		..\..\ql_nhasach_record.sql = ..\..\ql_nhasach_record.sql
+		..\..\INTRO\Diagram - sqlserver.jpg = ..\..\INTRO\Diagram - sqlserver.jpg
+		..\..\INTRO\ql_nhasach.sql = ..\..\INTRO\ql_nhasach.sql
+		..\..\INTRO\ql_nhasach_record.sql = ..\..\INTRO\ql_nhasach_record.sql
 	EndProjectSection
 EndProject
 Global
@@ -69,9 +67,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{EA247EAE-82E2-45AE-BE85-1A924E747A84} = {0B5579FA-267F-4C73-8CC8-585EAEA84D53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0FCFF005-E8DE-44C1-9E33-F908FBB43880}
