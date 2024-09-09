@@ -41,14 +41,14 @@
 	- **Nguyễn Võ Quốc Đại** - Member
 -  Members Github Account:
    -  [Nguyễn Văn Phú](https://github.com/vanphudev) - Leader
-   -  [Đoàn Quang Phương]() - Member
-   -  [Nguyễn Võ Quốc Đại]() - Member
+   -  [Đoàn Quang Phương](https://github.com/DoanQuangPhuong) - Member
+   -  [Nguyễn Võ Quốc Đại](https://github.com/DaiUnited) - Member
 -  Information Members:
    | STT | Name Member | MSSV | Email | Github |
    |-----|-------------|------|-------|--------|
    | 1 | Nguyễn Văn Phú | 2001216041 | vuonggiaphu.pct@gmail.com |<a href="https://github.com/vanphudev"><img src="https://img.shields.io/badge/vanphudev-282C34?logo=github&logoColor=FFFFFF" alt="git logo" title="github" height="35" /></a>|
-   | 2 | Đoàn Quang Phương | 2001216062 |  |<a href="https://github.com/vanphudev"><img src="https://img.shields.io/badge/vanphudev-282C34?logo=github&logoColor=FFFFFF" alt="git logo" title="github" height="35" /></a>|
-   | 3 | Nguyễn Võ Quốc Đại | 2001215687 |  |<a href="https://github.com/vanphudev"><img src="https://img.shields.io/badge/vanphudev-282C34?logo=github&logoColor=FFFFFF" alt="git logo" title="github" height="35" /></a>|
+   | 2 | Đoàn Quang Phương | 2001216062 |  |<a href="https://github.com/DoanQuangPhuong"><img src="https://img.shields.io/badge/DoanQuangPhuong-282C34?logo=github&logoColor=FFFFFF" alt="git logo" title="github" height="35" /></a>|
+   | 3 | Nguyễn Võ Quốc Đại | 2001215687 |  |<a href="https://github.com/DaiUnited"><img src="https://img.shields.io/badge/DaiUnited-282C34?logo=github&logoColor=FFFFFF" alt="git logo" title="github" height="35" /></a>|
 
 ## :ledger: Index
 
@@ -86,7 +86,7 @@
 -  Steps on how to install this project, to use it.
 
 ```
-$ git clone https://github.com/vanphudev/qlNhaSach_Team11__Ptpmudtm.git ECommerceBooks
+$ git clone https://github.com/vanphudev/ECommerceBooks_Team11_PTPMUDTT.git ECommerceBooks
 $ cd ECommerceBooks
 ```
 
