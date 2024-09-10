@@ -47,7 +47,7 @@
    | STT | Name Member | MSSV | Email | Github |
    |-----|-------------|------|-------|--------|
    | 1 | Nguyễn Văn Phú | 2001216041 | vuonggiaphu.pct@gmail.com |<a href="https://github.com/vanphudev"><img src="https://img.shields.io/badge/vanphudev-282C34?logo=github&logoColor=FFFFFF" alt="git logo" title="github" height="35" /></a>|
-   | 2 | Đoàn Quang Phương | 2001216062 |quangphuong080603@gmail.com |<a href="https://github.com/DoanQuangPhuong"><img src="https://img.shields.io/badge/DoanQuangPhuong-282C34?logo=github&logoColor=FFFFFF" alt="git logo" title="github" height="35" /></a>|
+   | 2 | Đoàn Quang Phương Update| 2001216062 |quangphuong080603@gmail.com |<a href="https://github.com/DoanQuangPhuong"><img src="https://img.shields.io/badge/DoanQuangPhuong-282C34?logo=github&logoColor=FFFFFF" alt="git logo" title="github" height="35" /></a>|
    | 3 | Nguyễn Võ Quốc Đại | 2001215687 |  |<a href="https://github.com/DaiUnited"><img src="https://img.shields.io/badge/DaiUnited-282C34?logo=github&logoColor=FFFFFF" alt="git logo" title="github" height="35" /></a>|
 
 ## :ledger: Index
