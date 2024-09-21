@@ -41,7 +41,12 @@
     <Reference Include="DevExpress.Utils.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraLayout.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v24.1, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v24.1.Core, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v24.1.Core.Desktop, Version=24.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -70,6 +75,18 @@
     <Compile Include="UIBanHang\frmBanHang.Designer.cs">
       <DependentUpon>frmBanHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIBanHang\UC_ChiTietSanPham.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIBanHang\UC_ChiTietSanPham.Designer.cs">
+      <DependentUpon>UC_ChiTietSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIBanHang\UC_GioHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIBanHang\UC_GioHang.Designer.cs">
+      <DependentUpon>UC_GioHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="UINhapHang\frmNhapHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,9 +105,16 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="UIBanHang\frmBanHang.resx">
       <DependentUpon>frmBanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIBanHang\UC_ChiTietSanPham.resx">
+      <DependentUpon>UC_ChiTietSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIBanHang\UC_GioHang.resx">
+      <DependentUpon>UC_GioHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UINhapHang\frmNhapHang.resx">
       <DependentUpon>frmNhapHang.cs</DependentUpon>
@@ -114,7 +138,9 @@
     <Folder Include="UIReports\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Icons\AddToCart.png" />
     <Content Include="Assets\Icons\open-book.png" />
+    <Content Include="Assets\Icons\remove.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
