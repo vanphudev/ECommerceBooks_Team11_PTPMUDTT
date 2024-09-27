@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UC_ECommerceBooks
 {
-    public partial class UCBanHang : UserControl
+    public partial class UCNhapHang : UserControl
     {
-        public UCBanHang()
+        public UCNhapHang()
         {
             InitializeComponent();
         }

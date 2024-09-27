@@ -1,6 +1,6 @@
 ﻿namespace UC_ECommerceBooks
 {
-    partial class UCBanHang
+    partial class UCNhapHang
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCBanHang));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCNhapHang));
             this.label1 = new System.Windows.Forms.Label();
             this.cbNhaCungUng = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
