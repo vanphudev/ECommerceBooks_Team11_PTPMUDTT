@@ -30,7 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_ChiTietSanPham));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -38,11 +40,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.num_SoLuong = new System.Windows.Forms.NumericUpDown();
             this.btn_ThemGioHang = new DevExpress.XtraEditors.SimpleButton();
-            this.lbl_Tong = new DevExpress.XtraEditors.LabelControl();
-            this.lbl_GiaSach = new DevExpress.XtraEditors.LabelControl();
+            this.lable2 = new DevExpress.XtraEditors.LabelControl();
+            this.lable1 = new DevExpress.XtraEditors.LabelControl();
             this.txt_TenSach = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.txtTongTien = new System.Windows.Forms.TextBox();
+            this.txtGiaTien = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num_SoLuong)).BeginInit();
@@ -57,9 +59,20 @@
             this.panel1.Size = new System.Drawing.Size(211, 232);
             this.panel1.TabIndex = 0;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(78, 89);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(52, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Ảnh sách";
+            // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.txtGiaTien);
+            this.panel2.Controls.Add(this.txtTongTien);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
@@ -68,13 +81,24 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.num_SoLuong);
             this.panel2.Controls.Add(this.btn_ThemGioHang);
-            this.panel2.Controls.Add(this.lbl_Tong);
-            this.panel2.Controls.Add(this.lbl_GiaSach);
+            this.panel2.Controls.Add(this.lable2);
+            this.panel2.Controls.Add(this.lable1);
             this.panel2.Controls.Add(this.txt_TenSach);
             this.panel2.Location = new System.Drawing.Point(217, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(468, 232);
             this.panel2.TabIndex = 1;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Comic Sans MS", 22.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.label5.ForeColor = System.Drawing.Color.Gold;
+            this.label5.Location = new System.Drawing.Point(166, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(232, 42);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "Thông tin sách";
             // 
             // label4
             // 
@@ -123,7 +147,7 @@
             // 
             this.num_SoLuong.Location = new System.Drawing.Point(124, 141);
             this.num_SoLuong.Name = "num_SoLuong";
-            this.num_SoLuong.Size = new System.Drawing.Size(120, 20);
+            this.num_SoLuong.Size = new System.Drawing.Size(132, 20);
             this.num_SoLuong.TabIndex = 16;
             // 
             // btn_ThemGioHang
@@ -137,29 +161,29 @@
             this.btn_ThemGioHang.TabIndex = 15;
             this.btn_ThemGioHang.Text = "Thêm vào giỏ hàng";
             // 
-            // lbl_Tong
+            // lable2
             // 
-            this.lbl_Tong.Appearance.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Tong.Appearance.ForeColor = System.Drawing.Color.Crimson;
-            this.lbl_Tong.Appearance.Options.UseFont = true;
-            this.lbl_Tong.Appearance.Options.UseForeColor = true;
-            this.lbl_Tong.Location = new System.Drawing.Point(124, 188);
-            this.lbl_Tong.Name = "lbl_Tong";
-            this.lbl_Tong.Size = new System.Drawing.Size(53, 24);
-            this.lbl_Tong.TabIndex = 14;
-            this.lbl_Tong.Text = "Tổng:";
+            this.lable2.Appearance.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lable2.Appearance.ForeColor = System.Drawing.Color.Crimson;
+            this.lable2.Appearance.Options.UseFont = true;
+            this.lable2.Appearance.Options.UseForeColor = true;
+            this.lable2.Location = new System.Drawing.Point(25, 187);
+            this.lable2.Name = "lable2";
+            this.lable2.Size = new System.Drawing.Size(53, 24);
+            this.lable2.TabIndex = 14;
+            this.lable2.Text = "Tổng:";
             // 
-            // lbl_GiaSach
+            // lable1
             // 
-            this.lbl_GiaSach.Appearance.Font = new System.Drawing.Font("Times New Roman", 13.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.lbl_GiaSach.Appearance.ForeColor = System.Drawing.Color.LimeGreen;
-            this.lbl_GiaSach.Appearance.Options.UseFont = true;
-            this.lbl_GiaSach.Appearance.Options.UseForeColor = true;
-            this.lbl_GiaSach.Location = new System.Drawing.Point(293, 139);
-            this.lbl_GiaSach.Name = "lbl_GiaSach";
-            this.lbl_GiaSach.Size = new System.Drawing.Size(33, 20);
-            this.lbl_GiaSach.TabIndex = 13;
-            this.lbl_GiaSach.Text = "Giá:";
+            this.lable1.Appearance.Font = new System.Drawing.Font("Times New Roman", 13.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.lable1.Appearance.ForeColor = System.Drawing.Color.LimeGreen;
+            this.lable1.Appearance.Options.UseFont = true;
+            this.lable1.Appearance.Options.UseForeColor = true;
+            this.lable1.Location = new System.Drawing.Point(278, 139);
+            this.lable1.Name = "lable1";
+            this.lable1.Size = new System.Drawing.Size(33, 20);
+            this.lable1.TabIndex = 13;
+            this.lable1.Text = "Giá:";
             // 
             // txt_TenSach
             // 
@@ -168,25 +192,19 @@
             this.txt_TenSach.Size = new System.Drawing.Size(336, 20);
             this.txt_TenSach.TabIndex = 12;
             // 
-            // label5
+            // txtTongTien
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Comic Sans MS", 22.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label5.ForeColor = System.Drawing.Color.Gold;
-            this.label5.Location = new System.Drawing.Point(166, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(232, 42);
-            this.label5.TabIndex = 22;
-            this.label5.Text = "Thông tin sách";
+            this.txtTongTien.Location = new System.Drawing.Point(124, 192);
+            this.txtTongTien.Name = "txtTongTien";
+            this.txtTongTien.Size = new System.Drawing.Size(132, 20);
+            this.txtTongTien.TabIndex = 23;
             // 
-            // label6
+            // txtGiaTien
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(78, 89);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(52, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Ảnh sách";
+            this.txtGiaTien.Location = new System.Drawing.Point(328, 139);
+            this.txtGiaTien.Name = "txtGiaTien";
+            this.txtGiaTien.Size = new System.Drawing.Size(132, 20);
+            this.txtGiaTien.TabIndex = 24;
             // 
             // UC_ChiTietSanPham
             // 
@@ -216,10 +234,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NumericUpDown num_SoLuong;
         private DevExpress.XtraEditors.SimpleButton btn_ThemGioHang;
-        private DevExpress.XtraEditors.LabelControl lbl_Tong;
-        private DevExpress.XtraEditors.LabelControl lbl_GiaSach;
+        private DevExpress.XtraEditors.LabelControl lable2;
+        private DevExpress.XtraEditors.LabelControl lable1;
         private System.Windows.Forms.TextBox txt_TenSach;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtGiaTien;
+        private System.Windows.Forms.TextBox txtTongTien;
     }
 }

@@ -38,31 +38,33 @@
             this.tileBarGroupTables = new DevExpress.XtraBars.Navigation.TileBarGroup();
             this.employeesTileBarItem = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.customersTileBarItem = new DevExpress.XtraBars.Navigation.TileBarItem();
+            this.tileBarGroup3 = new DevExpress.XtraBars.Navigation.TileBarGroup();
             this.tileBarItem1 = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.navigationFrame = new DevExpress.XtraBars.Navigation.NavigationFrame();
             this.employeesNavigationPage = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.tree_Category = new System.Windows.Forms.TreeView();
             this.employeesLabelControl = new DevExpress.XtraEditors.LabelControl();
             this.customersNavigationPage = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.customersLabelControl = new DevExpress.XtraEditors.LabelControl();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.uC_GioHang1 = new GUI_ECommerceBooks.UIBanHang.UC_GioHang();
-            this.uC_ChiTietSanPham1 = new GUI_ECommerceBooks.UIBanHang.UC_ChiTietSanPham();
-            this.label4 = new System.Windows.Forms.Label();
             this.tileBarItem2 = new DevExpress.XtraBars.Navigation.TileBarItem();
             this.tileBarGroup1 = new DevExpress.XtraBars.Navigation.TileBarGroup();
             this.tileBarGroup2 = new DevExpress.XtraBars.Navigation.TileBarGroup();
-            this.tileBarGroup3 = new DevExpress.XtraBars.Navigation.TileBarGroup();
+            this.uC_ChiTietSanPham1 = new GUI_ECommerceBooks.UIBanHang.UC_ChiTietSanPham();
+            this.uC_GioHang1 = new GUI_ECommerceBooks.UIBanHang.UC_GioHang();
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame)).BeginInit();
             this.navigationFrame.SuspendLayout();
             this.employeesNavigationPage.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.customersNavigationPage.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tileBar
@@ -125,6 +127,11 @@
             this.customersTileBarItem.ItemSize = DevExpress.XtraBars.Navigation.TileBarItemSize.Wide;
             this.customersTileBarItem.Name = "customersTileBarItem";
             // 
+            // tileBarGroup3
+            // 
+            this.tileBarGroup3.Items.Add(this.tileBarItem1);
+            this.tileBarGroup3.Name = "tileBarGroup3";
+            // 
             // tileBarItem1
             // 
             this.tileBarItem1.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
@@ -153,13 +160,72 @@
             // employeesNavigationPage
             // 
             this.employeesNavigationPage.Caption = "employeesNavigationPage";
-            this.employeesNavigationPage.Controls.Add(this.panel2);
             this.employeesNavigationPage.Controls.Add(this.uC_GioHang1);
             this.employeesNavigationPage.Controls.Add(this.uC_ChiTietSanPham1);
+            this.employeesNavigationPage.Controls.Add(this.panel2);
             this.employeesNavigationPage.Controls.Add(this.panel1);
             this.employeesNavigationPage.Controls.Add(this.employeesLabelControl);
             this.employeesNavigationPage.Name = "employeesNavigationPage";
             this.employeesNavigationPage.Size = new System.Drawing.Size(966, 526);
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Location = new System.Drawing.Point(277, 247);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(210, 276);
+            this.panel2.TabIndex = 6;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(26, 169);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(152, 21);
+            this.textBox2.TabIndex = 4;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(26, 76);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(152, 21);
+            this.textBox1.TabIndex = 3;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.PowderBlue;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.label4.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label4.Location = new System.Drawing.Point(3, 221);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(200, 19);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "------- Bookstore -------";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.label3.Location = new System.Drawing.Point(22, 127);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(156, 19);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Ngày lập hóa đơn:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.label2.Location = new System.Drawing.Point(5, 36);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(196, 19);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Nhân viên lập hóa đơn:";
             // 
             // panel1
             // 
@@ -228,65 +294,6 @@
             this.customersLabelControl.TabIndex = 2;
             this.customersLabelControl.Text = "Customers";
             // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(277, 247);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(210, 276);
-            this.panel2.TabIndex = 6;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label2.Location = new System.Drawing.Point(5, 36);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(196, 19);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Nhân viên lập hóa đơn:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label3.Location = new System.Drawing.Point(22, 127);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(156, 19);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Ngày lập hóa đơn:";
-            // 
-            // uC_GioHang1
-            // 
-            this.uC_GioHang1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.uC_GioHang1.Location = new System.Drawing.Point(493, 247);
-            this.uC_GioHang1.Name = "uC_GioHang1";
-            this.uC_GioHang1.Size = new System.Drawing.Size(473, 276);
-            this.uC_GioHang1.TabIndex = 5;
-            // 
-            // uC_ChiTietSanPham1
-            // 
-            this.uC_ChiTietSanPham1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.uC_ChiTietSanPham1.Location = new System.Drawing.Point(277, 8);
-            this.uC_ChiTietSanPham1.Name = "uC_ChiTietSanPham1";
-            this.uC_ChiTietSanPham1.Size = new System.Drawing.Size(685, 233);
-            this.uC_ChiTietSanPham1.TabIndex = 4;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.PowderBlue;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label4.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label4.Location = new System.Drawing.Point(3, 221);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(200, 19);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "------- Bookstore -------";
-            // 
             // tileBarItem2
             // 
             this.tileBarItem2.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
@@ -304,10 +311,19 @@
             // 
             this.tileBarGroup2.Name = "tileBarGroup2";
             // 
-            // tileBarGroup3
+            // uC_ChiTietSanPham1
             // 
-            this.tileBarGroup3.Items.Add(this.tileBarItem1);
-            this.tileBarGroup3.Name = "tileBarGroup3";
+            this.uC_ChiTietSanPham1.Location = new System.Drawing.Point(277, 8);
+            this.uC_ChiTietSanPham1.Name = "uC_ChiTietSanPham1";
+            this.uC_ChiTietSanPham1.Size = new System.Drawing.Size(685, 233);
+            this.uC_ChiTietSanPham1.TabIndex = 7;
+            // 
+            // uC_GioHang1
+            // 
+            this.uC_GioHang1.Location = new System.Drawing.Point(493, 247);
+            this.uC_GioHang1.Name = "uC_GioHang1";
+            this.uC_GioHang1.Size = new System.Drawing.Size(473, 276);
+            this.uC_GioHang1.TabIndex = 8;
             // 
             // frmBanHang
             // 
@@ -323,11 +339,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.navigationFrame)).EndInit();
             this.navigationFrame.ResumeLayout(false);
             this.employeesNavigationPage.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.customersNavigationPage.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -347,8 +363,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TreeView tree_Category;
         private System.Windows.Forms.Label label1;
-        private UC_GioHang uC_GioHang1;
-        private UC_ChiTietSanPham uC_ChiTietSanPham1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -357,5 +371,9 @@
         private DevExpress.XtraBars.Navigation.TileBarGroup tileBarGroup1;
         private DevExpress.XtraBars.Navigation.TileBarGroup tileBarGroup2;
         private DevExpress.XtraBars.Navigation.TileBarGroup tileBarGroup3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private UC_GioHang uC_GioHang1;
+        private UC_ChiTietSanPham uC_ChiTietSanPham1;
     }
 }

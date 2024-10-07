@@ -34,6 +34,7 @@
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.lbl_TongTien = new DevExpress.XtraEditors.LabelControl();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtTongTien = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,7 +74,7 @@
             this.lbl_TongTien.Appearance.ForeColor = System.Drawing.Color.Red;
             this.lbl_TongTien.Appearance.Options.UseFont = true;
             this.lbl_TongTien.Appearance.Options.UseForeColor = true;
-            this.lbl_TongTien.Location = new System.Drawing.Point(9, 222);
+            this.lbl_TongTien.Location = new System.Drawing.Point(9, 234);
             this.lbl_TongTien.Name = "lbl_TongTien";
             this.lbl_TongTien.Size = new System.Drawing.Size(97, 24);
             this.lbl_TongTien.TabIndex = 8;
@@ -90,10 +91,18 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Giỏ Hàng ----------";
             // 
+            // txtTongTien
+            // 
+            this.txtTongTien.Location = new System.Drawing.Point(112, 238);
+            this.txtTongTien.Name = "txtTongTien";
+            this.txtTongTien.Size = new System.Drawing.Size(234, 20);
+            this.txtTongTien.TabIndex = 24;
+            // 
             // UC_GioHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.txtTongTien);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbl_TongTien);
             this.Controls.Add(this.simpleButton1);
@@ -114,5 +123,6 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.LabelControl lbl_TongTien;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtTongTien;
     }
 }
